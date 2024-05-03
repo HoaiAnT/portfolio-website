@@ -66,10 +66,13 @@ nav{
 }
 footer{
     background-color: rgba(244, 244, 244, 1);
+    border-style:hidden;
+    width:100%;
     display:flex;
     padding-top:20px;
     padding-bottom:15px;
-    position: relative;
+    position: absolute;
+    top:160%;
 }
 footer a{
     margin-top: -1vw;
@@ -94,5 +97,12 @@ footer p{
     left:45%;
     right:50%;
     position:absolute;
-    top:417.8%;
+    top:133.8%;
+}
+.resume img{
+    width:50%;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    position: absolute;
+    left:25%;
 }
