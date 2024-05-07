@@ -70,7 +70,7 @@ footer{
     display:flex;
     padding-top:20px;
     padding-bottom:15px;
-    position: relative;
+    margin-top: 10vw;;
 }
 footer a{
     margin-top: -1vw;
@@ -90,12 +90,12 @@ footer p{
 }
 .arrow img{
     width:10%;
-    margin-top: 10%;
+    margin-top: 150vw;;
     margin-bottom:0;
     left:45%;
     right:50%;
     position:absolute;
-    top:417.8%;
+    top:387.6%;
 }
 h1{
     font-family: "Roboto Condensed", sans-serif;
@@ -172,7 +172,7 @@ h3{
 .essay h2{
     display: flex;
     justify-content: center;
-    margin-bottom: 5vw;
+    margin-bottom: 3vw;
 }
 
 .image{
@@ -196,6 +196,7 @@ h3{
     width:20%;
     border-width: 1px;
     margin-bottom:5vw;
+    padding-bottom: 3.5vw;
 }
 .third section{
     border-style:solid ;
@@ -203,6 +204,7 @@ h3{
     width:20%;
     border-width: 1px;
     margin-bottom:5vw;
+    padding-bottom: 3.5vw;
 }
 .third{
     display: flex;
@@ -218,7 +220,8 @@ h3{
     font-weight: 10;
     font-style: normal;
     padding:20px;
-    text-indent: 10px;;
+    text-indent: 20px;;
+    margin-bottom: 1vw;;
 }
 .third h3{
     font-size: 25px;
@@ -244,14 +247,159 @@ h3{
     border-style: solid;
     color: white;
     background-color: black;
-    border-radius: 10px;
+    border-radius: 20px;
     padding:15px;
+    margin-left:13vw;
 }
 .essay a:hover{
     text-decoration: none;
     border-style: solid;
     color: white;
     background-color: blue;
-    border-radius: 10px;
+    border-radius: 20px;
     padding:15px;
+}
+
+.arts h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3vw;;
+}
+.tangle img{
+    width:95%;
+    height:20vw;
+    border-style: solid;
+    border-width:1.8px;
+}
+.tangle section{
+    border-style:solid;
+    background-color: rgb(204, 204, 204);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 10px;
+    padding-left: 35px;
+    border-width:2px;
+    width:32.5%;
+    margin-bottom:5vw;
+}
+.horse{
+    margin-left:11.6%;
+}
+.night{
+    position: absolute;
+    top:180vw;
+    left:55.83%;
+}
+.tangle img{
+    width:95%;
+    border-style: solid;
+    border-width:1.8px;
+}
+.square img{
+    width:95%;
+    height: 20vw;;
+}
+.square section{
+    border-style:solid;
+    background-color: rgb(204, 204, 204);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 10px;
+    padding-left: 35px;
+    border-width:2px;
+    width:32.5%;
+    margin-bottom:5vw;
+}
+.halloween{
+    margin-left:11.6%;
+
+}
+.mufin{
+    position: absolute;
+    top:208vw;
+    left:55.83%;
+}
+.long img{
+    width:95%;
+    height:40vw;
+    border-style: solid;
+    border-width:1.8px;
+}
+.long section{
+    border-style:solid;
+    background-color: rgb(204, 204, 204);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 10px;
+    padding-left: 35px;
+    border-width:2px;
+    width:32.5%;
+    margin-bottom:5vw;
+}
+.aware{
+    margin-left: 11.6%;;
+}
+.butterfly {
+    position: absolute;
+    top:235.5vw;
+    left:55.83%;
+}
+.advanced{
+    margin-bottom: 5vw;;
+}
+.advanced img{
+    width:25%;
+    height:17vw;
+}
+.advanced h2{
+    width:25%;
+    margin-left:37.5%;
+}
+.advanced h3{
+    width:25%;
+    margin-left:41.5%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 10;
+    font-style: normal;
+    font-size:45px;
+    margin-bottom: 3vw;;
+}
+.tools p{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 10;
+    font-style: normal;
+    width: 35%;
+    position: absolute;
+    top:295vw;;
+    margin-bottom: 5vw;
+    margin-left: 50vw;
+    text-indent: 30px;;
+
+}
+.tools{
+    margin-bottom: 5vw;;
+    background-color: rgba(244, 244, 244, 1);
+    border-color:lightgrey;
+    border-style: solid;
+    border-width: 0.1px;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+.tools img{
+    margin-left: 18vw;;
+}
+.program p{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 10;
+    font-style: normal;
+    width: 35%;
+    margin-bottom: 5vw;
+    margin-left: 18vw;
+    margin-right: 5vw;
+}
+.program{
+    display: flex;
+    text-indent: 30px;;
 }
