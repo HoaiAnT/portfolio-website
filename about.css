@@ -210,9 +210,10 @@ h1{
     height: 15vw;
 }
 .hobbies section{
-    border-style:hidden;
+    border-style:solid;
+    border-radius: 5px;
+    border-width: 1px;;
     background-color: rgba(244, 244, 244, 1);
-    border-color:lightgrey;
     width:22.5%;
     margin-bottom: 5vw;;
 }

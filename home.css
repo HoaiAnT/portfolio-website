@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,800;1,800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
 
 
 *{
@@ -71,7 +70,6 @@ footer{
     padding-top:20px;
     padding-bottom:15px;
     position: relative;
-    margin-top: 8vw;;
 }
 footer a{
     margin-top: -1vw;
@@ -96,111 +94,134 @@ footer p{
     left:45%;
     right:50%;
     position:absolute;
-    top:113.3%;
+    top:308.99%;
+}
+h5{
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 40px;;
 }
 h1{
-    font-family: "Roboto Condensed", sans-serif;
-    font-optical-sizing: auto;
+    font-family: "Poppins", sans-serif;
     font-weight: 800;
     font-style: normal;
-    font-size: 70px;
+    font-size: 80px;
 }
-.para{
-    width: 43%;
+.intro p{
+    width:43%;
     margin-top: 20px;
-    font-size: 25px;
+    font-size: 35px;
     font-family: "Poppins", sans-serif;
     font-weight: 10;
     font-style: normal;
-    margin-bottom: 1vw;
+    margin-bottom:13vw;
 }
-.graph{
-    width: 43%;
-    margin-top: 20px;
-    font-size: 25px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 10;
-    font-style: normal;
-    margin-bottom: 5vw;;
+.intro img{
+    position:absolute;
+    top:5%;
+    left:53%;
+    width:45%;
+    margin-bottom: 20px;
 }
 .intro{
-    margin-left: 20vw;
+    margin-top:8vw;
+    margin-left:15vw;
+}
+hr{
+    width:75%;
+    margin-left:14vw
+}
+.cart img{
+    width:25%;
     margin-top:5vw;
+    margin-left:15vw;
 }
-.contact{
-    margin-bottom: 2vw;;
-    background-color: rgba(244, 244, 244, 1);
-    border-color:lightgrey;
-    border-style: solid;
-    border-width: 0.1px;
-    padding-top: 2vw;
-    padding-bottom: 4vw;
-    color: black;
-    padding-left: 20vw;;
+.advance{
+    width:35%;
+    position:absolute;
+    top:50vw;
+    left:50%;
 }
-.contact:hover{
-    background-color: rgba(244, 244, 244, 1);
-    color:black;
-}
-.contact h2{
+.advance h2{
     font-family: "Poppins", sans-serif;
     font-weight: 10;
     font-style: normal;
     font-size:45px;
-    margin-bottom:1vw;
+    margin-bottom:45px;
 }
-label {
+.advance p{
     font-family: "Poppins", sans-serif;
     font-weight: 10;
     font-style: normal;
-    font-size: 25px;
-    margin-bottom: 1vw;
+    font-size:27px;
 }
-input{
-    font-family: "Poppins", sans-serif;
-    font-weight: 10;
-    font-style: normal;
-    font-size: 20px;
-    width:15%;
-    margin-bottom: 1vw;
-}
-textarea{
-    font-family: "Poppins", sans-serif;
-    font-weight: 10;
-    font-style: normal;
-    font-size: 11px;
-    width:228%;
-    height:6.3vw;
-}
-.name{
-    display: flex;;
-}
-.email{
-    display: flex;
-}
-.message{
-    display:flex;
-}
-.mee{
-    position:absolute;
-    top:41.5vw;
-    left:41.5%;
-}
-button{
-    margin-top: 1vw;
+.treasure{
+    background-color: rgba(244, 244, 244, 1);
+    border-color: lightgrey;
     border-style:solid;
-    border-radius:5px;
-    padding:15px;
-    color:white;
-    background-color: black;
-    margin-left: 30.3vw;;
+    border-width: 0.1px;
+    margin-left:-5px;
+    margin-right:-5px;
+    margin-top:5vw;
+    margin-bottom:5vw;
 }
-.h-captcha{
-    margin-left:21vw;
-    margin-top:1vw;
+.treasure img{
+    width:30%;
+    margin-top:5vw;
+    margin-bottom:5vw;
+    margin-left:55vw;
 }
-.intro img{
+.center{
+    width:35%;
     position:absolute;
-    top:12vw;
-    left:60%
+    top:85vw;
+    margin-left:15vw;
+}
+.center p{
+    font-family: "Poppins", sans-serif;
+    font-weight: 10;
+    font-style: normal;
+    font-size:27px;
+}
+.center h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 10;
+    font-style: normal;
+    font-size:45px;
+    margin-bottom:45px;
+}
+.life h2{
+    margin-left:45%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 10;
+    font-style: normal;
+    font-size:45px;
+    margin-bottom:45px;
+}
+.style img{
+    width:22.5%;
+    height:15vw;
+}
+.first img{
+    margin-right:5vw;
+}
+.first{
+    margin-left:17vw;
+    margin-bottom:5vw;
+}
+.second{
+    margin-left:17vw;
+    margin-bottom:5vw;
+}
+.second img{
+    margin-right:5vw;
+
+}
+.life{
+    margin-bottom: 9vw;
+}
+.line hr{
+    width:100%;
+    margin-left:0
 }
