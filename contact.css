@@ -202,5 +202,12 @@ button{
 .intro img{
     position:absolute;
     top:12vw;
-    left:60%
+    left:60%;
+}
+img {
+    transition: width 2s;
+}
+  
+img:hover {
+    width: 600px;
 }
