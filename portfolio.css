@@ -373,7 +373,7 @@ h3{
     font-style: normal;
     width: 35%;
     position: absolute;
-    top:300vw;;
+    top:305vw;;
     margin-bottom: 5vw;
     margin-left: 50vw;
     text-indent: 30px;;
@@ -405,4 +405,29 @@ h3{
 .program{
     display: flex;
     text-indent: 30px;;
+}
+.arts a{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 10;
+    font-style: normal;
+    text-decoration: none;
+    border-style: solid;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    padding:15px;
+    margin-left:80vw;
+    margin-bottom:4vw;
+}
+.arts a:hover{
+    text-decoration: none;
+    border-style: solid;
+    color: white;
+    background-color: blue;
+    border-radius: 20px;
+    padding:15px;
+}
+.advanced{
+    margin-top:6vw;
 }
