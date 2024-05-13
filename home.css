@@ -67,9 +67,10 @@ nav{
 footer{
     background-color: rgba(244, 244, 244, 1);
     display:flex;
-    padding-top:20px;
+    padding-top:40px;
     padding-bottom:15px;
     position: relative;
+    margin-top: 5vw;
 }
 footer a{
     margin-top: -1vw;
@@ -224,4 +225,43 @@ hr{
 .line hr{
     width:100%;
     margin-left:0
+}
+@media screen and (max-width:400px){
+    nav{
+        height:15vw;
+    }
+    nav img{
+        width:55%;
+        height:20vw
+    }
+    h1{
+        font-size: 35px;
+        margin-left:-15px
+    }
+    h2{
+        font-weight: none;
+        font-size: 25px;
+    }
+    p{
+        font-size: 15px;;
+    }
+    h5{
+        margin-left:-15px;
+        font-size: 35px;;
+    }
+    .intro p{
+        font-size: 20px;
+        width:100%;
+        margin-left:-15px;
+    }
+    .intro img{
+        display: none;
+    }
+    section{
+        margin-top:5vw;
+    }
+    hr{
+        margin-top:-8vw;
+        margin-left:50px
+    }
 }
