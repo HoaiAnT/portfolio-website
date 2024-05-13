@@ -467,3 +467,26 @@ h3{
 .tools{
     margin-bottom: 5vw;;
 }
+.inside a{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 10;
+    font-style: normal;
+    text-decoration: none;
+    border-style: solid;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+    padding: 19px;;
+    margin-left:20vw;
+    position: absolute;
+    top:29.5vw;
+}
+.inside a:hover{
+    text-decoration: none;
+    border-style: solid;
+    color: white;
+    background-color: blue;
+    border-radius: 20px;
+    padding:15px;
+}
