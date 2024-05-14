@@ -226,7 +226,7 @@ hr{
     width:100%;
     margin-left:0
 }
-@media screen and (max-device-width:400px){
+@media screen and (max-device-width:480px){
     nav{
         height:15vw;
     }
@@ -238,24 +238,21 @@ hr{
     }
     h1{
         font-size: 35px;
-        margin-left:-15px;
+        margin-left:-30px;
     }
     h2{
         font-weight: none;
         font-size: 25px;
     }
-    
-    .main p{
-        font-size: 20px;
-    }
+
     h5{
-        margin-left:-15px;
+        margin-left:-30px;
         font-size: 35px;
     }
     .intro p{
-        font-size: 20px;
-        width:88%;
-        margin-left:-15px;
+        font-size: 15px;
+        width:70%;
+        margin-left:-30px;
         margin-right:95px;
         margin-top:-0.5vw;
     }
@@ -268,55 +265,59 @@ hr{
     }
     hr{
         margin-top:-8vw;
-        margin-left:50px;
+        width:270px;
+        margin-left:40px;
     }
     .cart img{
-        width:65%;
+        margin-left:5vw;
+        width:60%;
         height:50vw;
     }
     .cart h2{
-        width:218%;
+        width:185%;
         font-size: 25px;
-        margin-top:100vw;
-        margin-left:-148px;
+        margin-top:80vw;
+        margin-left:-208px;
     }
     .cart p{
         font-size: 15px;
         margin-top:-43px;
-        width:195%;
-        margin-left:-105%;
+        width:185%;
+        margin-left:-125%;
         text-indent: 15px;;
     }
     .treasure{
-        margin-top:85vw;
+        margin-top:75vw;
         padding-bottom:290px;
     }
     .treasure img{
-        width:65%;
+        width:50%;
         margin-left:60px;
-        height:50vw;
+        height:30vw;
     }
     .treasure h2{
         font-size: 25px;
-        margin-top:205vw;
+        margin-top:153vw;
         color:black;
-        margin-left:3px;
+        margin-left:-12px;
     }
     .treasure p{
-        width:195%;
+        width:165%;
         font-size:15px;
         text-indent:15px;
         margin-top:-44.5px;
+        padding-bottom: 5vw;;
         margin-bottom: 5vw;
+        margin-left: -2svw;;
     }
     .life h2{
         font-size: 25px;
         margin-top:5vw;
         color:black;
-        margin-left:35%;
+        margin-left:25%;
     }
     .life img{
-        margin-left:-10px;
+        margin-left:-35px;
         margin-top:-20px;
     }
     footer{
@@ -329,7 +330,7 @@ hr{
         margin-top:-35px;
         font-size: 15px;;
         width:100%;
-        margin-left:70px;
+        margin-left:50px;
     }
     footer a{
         display: none;

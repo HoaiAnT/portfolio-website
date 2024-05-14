@@ -211,7 +211,7 @@ img {
 img:hover {
     width: 600px;
 }
-@media screen and (max-device-width:400px){
+@media screen and (max-device-width:480px){
     nav{
         height:15vw;
     }

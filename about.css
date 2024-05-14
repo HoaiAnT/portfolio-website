@@ -321,7 +321,7 @@ h1{
     height: 21vw;
     margin-left:55vw;
 }
-@media screen and (max-device-width:400px){
+@media screen and (max-device-width:480px){
     nav{
         height:15vw;
     }
