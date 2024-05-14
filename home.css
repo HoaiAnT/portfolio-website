@@ -250,11 +250,11 @@ hr{
         font-size: 35px;
     }
     .intro p{
-        font-size: 15px;
-        width:70%;
+        font-size: 20px;
+        width:75%;
         margin-left:-30px;
         margin-right:95px;
-        margin-top:-0.5vw;
+        margin-top:1vw;
     }
 
     .intro img{
@@ -265,25 +265,26 @@ hr{
     }
     hr{
         margin-top:-8vw;
-        width:270px;
-        margin-left:40px;
+        width:290px;
+        margin-left:45px;
     }
     .cart img{
-        margin-left:5vw;
+        margin-top:1vw;
+        margin-left:8.5vw;
         width:60%;
         height:50vw;
     }
     .cart h2{
         width:185%;
-        font-size: 25px;
-        margin-top:80vw;
-        margin-left:-208px;
+        font-size: 24px;
+        margin-top:89vw;
+        margin-left:-200px;
     }
     .cart p{
         font-size: 15px;
         margin-top:-43px;
         width:185%;
-        margin-left:-125%;
+        margin-left:-118%;
         text-indent: 15px;;
     }
     .treasure{
@@ -291,24 +292,24 @@ hr{
         padding-bottom:290px;
     }
     .treasure img{
-        width:50%;
-        margin-left:60px;
+        width:55%;
+        margin-left:70px;
         height:30vw;
     }
     .treasure h2{
         font-size: 25px;
-        margin-top:153vw;
+        margin-top:162vw;
         color:black;
-        margin-left:-12px;
+        margin-left:-3px;
     }
     .treasure p{
         width:165%;
         font-size:15px;
         text-indent:15px;
-        margin-top:-44.5px;
+        margin-top:-41.5px;
         padding-bottom: 5vw;;
         margin-bottom: 5vw;
-        margin-left: -2svw;;
+        margin-left: 0vw;;
     }
     .life h2{
         font-size: 25px;
@@ -317,11 +318,10 @@ hr{
         margin-left:25%;
     }
     .life img{
-        margin-left:-35px;
+        margin-left:-19px;
         margin-top:-20px;
     }
     footer{
-
         width:190%;
         height:50px;
     }
