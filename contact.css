@@ -211,3 +211,45 @@ img {
 img:hover {
     width: 600px;
 }
+@media screen and (max-device-width:400px){
+    nav{
+        height:15vw;
+    }
+    nav img{
+        margin-left:35px;
+        padding-top:9px;
+        width:60%;
+        height:13vw;
+    }
+    h1{
+        font-size: 55px;
+        margin-left:-25px;
+    }
+    h2{
+        font-weight: none;
+        font-size: 25px;
+    }
+    
+    main p{
+        font-size: 20px;
+    }
+    h5{
+        margin-left:-15px;
+        font-size: 35px;
+    }
+    footer{
+
+        width:190%;
+        height:50px;
+    }
+    footer p{
+        padding-top:15px;
+        margin-top:-35px;
+        font-size: 15px;;
+        width:100%;
+        margin-left:70px;
+    }
+    footer a{
+        display: none;
+    }
+}

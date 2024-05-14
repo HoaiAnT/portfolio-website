@@ -321,3 +321,192 @@ h1{
     height: 21vw;
     margin-left:55vw;
 }
+@media screen and (max-device-width:400px){
+    nav{
+        height:15vw;
+    }
+    nav img{
+        margin-left:35px;
+        padding-top:9px;
+        width:60%;
+        height:13vw;
+    }
+    h1{
+        font-size: 55px;
+        margin-left:-25px;
+    }
+    h2{
+        font-weight: none;
+        font-size: 25px;
+    }
+    
+    main p{
+        font-size: 20px;
+    }
+    h5{
+        margin-left:-15px;
+        font-size: 35px;
+    }
+    footer{
+
+        width:190%;
+        height:50px;
+    }
+    footer p{
+        padding-top:15px;
+        margin-top:-35px;
+        font-size: 15px;;
+        width:100%;
+        margin-left:70px;
+    }
+    footer a{
+        display: none;
+    }
+    .vietnam p{
+        text-indent:15px;
+        font-size: 18px;
+        width:98%;
+        margin-left:-25px;
+        margin-right:95px;
+        margin-top:-0.5vw;
+    }
+
+    .about img{
+        margin-top:50px;
+        width:55%;
+        height:45vw;
+        margin-left:-150px;
+        margin-top: 85vw;
+    }
+    section{
+        margin-top:5vw;
+    }
+    hr{
+        margin-top:220px;
+        margin-left:50px;
+    }
+    .america{
+        margin-top: 190vw;;
+    }
+    .passion{
+        margin-top:-310px;
+    }
+    .watch img{
+        display:none;
+    }
+    .aii{
+        padding-top: 80vw;
+        margin-left:-35vw;
+        width:250%;
+    }
+    .pass h2{
+        width:218%;
+        font-size: 25px;
+        margin-top:190vw;
+        margin-left:1px;
+        margin-bottom: 5vw;
+    }
+    .pass p{
+        font-size: 11px;
+        margin-top:-12px;
+        width:210%;
+        margin-left:5px;
+        text-indent: 25px;;
+    }
+    .ame h2{
+        width:218%;
+        font-size: 25px;
+        margin-top:105vw;
+        margin-left:-128px;
+        margin-bottom: 5vw;
+    }
+    .ame p{
+        font-size: 15px;
+        margin-top:-10px;
+        width:255%;
+        margin-left:-110%;
+        text-indent: 15px;;
+    }
+    .america img{
+        position: absolute;
+        top:205vw;
+        width:65%;
+    }
+    .exper{
+        margin-top:840vw;
+    }
+    .part{
+        margin-top:720vw;
+    }
+    .hobbies h2{
+        font-size:25px;
+    }
+    .hobbies h3{
+        font-size: 20px;
+        text-indent: 23px;
+    }
+    .hobbies p{
+        font-size: 15px;
+        text-indent: 15px;;
+    }
+    .hobbies img{
+        height:30vw;
+    }
+    .hobbies section{
+        width:70%;
+        margin-bottom: 45px;
+    }
+    .cooking{
+        margin-left:-149px;
+        margin-top:538vw;;
+    }
+    .music{
+        margin-left:-149px;
+        margin-top:630vw;;
+    }
+    .travel{
+        margin-top:499px;
+    }
+    .volunteer{
+        margin-top:1070px;
+        padding-top:95vw;
+    }
+    .part h2{
+        margin-top:5vw;
+        margin-left: -140px;
+        font-size: 24px;
+        margin-bottom: 3vw;
+    }
+    .part p{
+        margin-left:-140px;
+        width:250%;
+        font-size: 15px;
+        text-indent: 15px;;
+    }
+    .volunteer img{
+        width:70%;
+        height:35vw;
+        margin-bottom: 5vw;
+        margin-left: 17vw;;
+    }
+    .exper h2{
+        margin-left: -15px;
+        font-size: 25px;
+    }
+    .exper p{
+        margin-left:-15px;
+        text-indent: 15px;
+        font-size: 15px;
+        width:240%;
+    }
+
+    .travel img{
+        width:70%;
+        height:35vw;
+        margin-top: 10vw;;
+        margin-bottom: 5vw;
+        margin-left: 15vw;;
+    }
+
+
+}
