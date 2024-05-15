@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="contact.css">
     <script src="https://web3forms.com/client/script.js" async defer></script>
     <script src="contact.js"></script>
-
+    <script src="nav.js"></script>
 </head>
 
 <body>
@@ -19,53 +19,65 @@
         <a href="resume.html">resume</a>
         <a href="portfolio.html">portfolio</a>
         <a href="contact.html" class="contact">contact</a>
+        <img src="homw/navi.png" width="100px" alt="menu icon" id="menu" class="displayNone">
     </nav>
-    <section class="intro">
-        <h1 id="top">contact.</h1>
-        <div class="para">
-            <p>Job/Volunteer opportunities I’m interested in hearing about technology entrepreneurs.</p>
-        </div>
-        <div class="graph">
-            If you happen to come across any job or volunteer opportunities, I would greatly appreciate it if you could keep
-            me informed. Specifically, I’m keen on hearing about technology entrepreneurs. Feel free to reach out to me, or
-            if you have any thoughts or comments to share, I’m all ears!
-        </div>
-        <img src="homw/note.png" width="25%">
-    </section>
-    <div class="contact">
-        <h2>Send me an email</h2>
-       <section class="tact">
-        <form action="https://api.web3forms.com/submit" method="POST">
-
-            <!-- Replace with your Access Key -->
-            <input type="hidden" name="access_key" value="6f39d835-60e9-42b4-8beb-c9f654f93967">
-        
-            <label for="name">Name</label>
-            <input type="text" class="name" name="name" required>
-            <label for="email">Email</label>
-            <input type="email" class="email" name="email" required>
-            <section class="mee">
-                <label for="message">Message</label>
-                <textarea name="message" class="message" required></textarea>
-            </section>
-        
-            <!-- hCaptcha Spam Protection -->
-            <div class="h-captcha" data-captcha="true"></div>
-        
-            <button type="submit">Submit Form</button>
-        
-        </form>
-        <!-- Required for hCaptcha -->
-        
-       </section>
-    </div> 
-    <footer>
-        <p>@ 2024 Hoai An Tran</p>
-        <a href="home.html">home</a>
-        <a href="about.html">about</a>
-        <a href="resume.html">resume</a>
-        <a href="portfolio.html">portfolio</a>
-        <a href="contact.html">contact</a>
-    </footer>
+    <aside class="displayNone">
+        <ul>
+            <li class="asideItem"><a href="home.html" class="homeNav">Home</a></li>
+            <li class="asideItem"><a href="about.html" class="homeNav">About me</a></li>
+            <li class="asideItem"><a href="resume.html" class="homeNav">Resume</a></li>
+            <li class="asideItem"><a href="portfolio.html" class="homeNav">Portfolio</a></li>
+            <li class="asideItem"><a href="contact.html">Contact me</a></li>
+        </ul>
+    </aside>
+    <div class="main">
+        <section class="intro">
+            <h1 id="top">contact.</h1>
+            <div class="para">
+                <p>Job/Volunteer opportunities I’m interested in hearing about technology entrepreneurs.</p>
+            </div>
+            <div class="graph">
+                If you happen to come across any job or volunteer opportunities, I would greatly appreciate it if you could keep
+                me informed. Specifically, I’m keen on hearing about technology entrepreneurs. Feel free to reach out to me, or
+                if you have any thoughts or comments to share, I’m all ears!
+            </div>
+            <img src="homw/note.png" width="25%">
+        </section>
+        <div class="contact">
+            <h2>Send me an email</h2>
+           <section class="tact">
+            <form action="https://api.web3forms.com/submit" method="POST">
+    
+                <!-- Replace with your Access Key -->
+                <input type="hidden" name="access_key" value="6f39d835-60e9-42b4-8beb-c9f654f93967">
+            
+                <label for="name">Name</label>
+                <input type="text" class="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" class="email" name="email" required>
+                <section class="mee">
+                    <label for="message">Message</label>
+                    <textarea name="message" class="message" required></textarea>
+                </section>
+            
+                <!-- hCaptcha Spam Protection -->
+                <div class="h-captcha" data-captcha="true"></div>
+            
+                <button type="submit">Submit Form</button>
+            
+            </form>
+            <!-- Required for hCaptcha -->
+            
+           </section>
+        </div> 
+        <footer>
+            <p>@ 2024 Hoai An Tran</p>
+            <a href="home.html">home</a>
+            <a href="about.html">about</a>
+            <a href="resume.html">resume</a>
+            <a href="portfolio.html">portfolio</a>
+            <a href="contact.html">contact</a>
+        </footer>
+    </div>
 </body>
 </html>

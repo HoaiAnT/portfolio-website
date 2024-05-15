@@ -491,14 +491,47 @@ h3{
     border-radius: 20px;
     padding:15px;
 }
+.displayNone{
+    display: none !important; 
+}
 @media screen and (max-device-width:480px){
+    aside {
+        height: 100vh;
+        background-color: black;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    aside ul _{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    aside ul li {
+        padding: 2rem;
+        width: 100%;
+    }
+    aside ul a {
+        text-decoration: none;
+        font-size: 1.6rem;
+        color: white;
+        padding: 2rem;
+        text-align: center;
+        width: 100%;
+    }
+    nav>a, nav img:nth-child(1) {
+        display: none;
+    }
+    nav #menu {
+        display: block !important;
+    }
     nav{
         height:15vw;
     }
     nav img{
-        margin-left:35px;
+        margin-left:15vw;;
         padding-top:9px;
-        width:60%;
+        width:40%;
         height:13vw;
     }
     h1{
@@ -517,7 +550,7 @@ h3{
         font-size: 35px;
     }
     footer{
-
+        margin-top:100%;
         width:190%;
         height:50px;
     }
@@ -569,7 +602,12 @@ h3{
         height:55vw;
     }
     .park{
-        margin-top:150vw;
+        margin-top:155vw;
+    }
+    .second section{
+        padding-bottom:8vw;;
+        width:80%;
+        position: absolute;
     }
     .third section{
         padding-bottom:8vw;;
@@ -587,4 +625,29 @@ h3{
     .essay p{
         font-size: 15px;
     }
+    .essay a{
+        margin-left:45vw;
+    }
+    .logic{
+        margin-top:305vw;
+    }
+    .social{
+        margin-top:465vw;
+    }
+    .arts{
+        margin-top:630vw;
+    }
+    .tangle .horse{
+        margin-left:8vw;
+        width:80%;
+        border:none;
+        background-color: white;
+    }
+    .tangle img{
+        height:45vw;
+    }
+    .tangle .night{
+        
+    }
+
 }

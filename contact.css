@@ -9,6 +9,9 @@
     padding: 0;
     margin: 0;
 }
+.displayNone{
+    display: none !important; 
+}
 
 nav a{
     font-family: "Kanit", sans-serif;
@@ -212,13 +215,43 @@ img:hover {
     width: 600px;
 }
 @media screen and (max-device-width:480px){
+    aside {
+        height: 100vh;
+        background-color: black;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    aside ul _{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    aside ul li {
+        padding: 2rem;
+        width: 100%;
+    }
+    aside ul a {
+        text-decoration: none;
+        font-size: 1.6rem;
+        color: white;
+        padding: 2rem;
+        text-align: center;
+        width: 100%;
+    }
+    nav>a, nav img:nth-child(1) {
+        display: none;
+    }
+    nav #menu {
+        display: block !important;
+    }
     nav{
         height:15vw;
     }
     nav img{
-        margin-left:35px;
+        margin-left:15vw;;
         padding-top:9px;
-        width:60%;
+        width:40%;
         height:13vw;
     }
     h1{
@@ -268,9 +301,9 @@ img:hover {
         margin-bottom: 8vw;;
     }
     .intro img{
-        width:75%;
         margin-top:115vw;
-        margin-left:-47vw;
+        width:75%;
+        margin-left: -50vw;
     }
     .contact h2{
         font-size: 30px;

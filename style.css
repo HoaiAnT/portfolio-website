@@ -234,3 +234,47 @@ hr{
     position:absolute;
     top:177vw;
 }
+.displayNone{
+    display: none !important; 
+}
+@media screen and (max-device-width:480px){
+    aside {
+        height: 100vh;
+        background-color: black;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    aside ul _{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+    }
+    aside ul li {
+        padding: 2rem;
+        width: 100%;
+    }
+    aside ul a {
+        text-decoration: none;
+        font-size: 1.6rem;
+        color: white;
+        padding: 2rem;
+        text-align: center;
+        width: 100%;
+    }
+    nav>a, nav img:nth-child(1) {
+        display: none;
+    }
+    nav #menu {
+        display: block !important;
+    }
+    nav{
+        height:15vw;
+    }
+    nav img{
+        margin-left:15vw;;
+        padding-top:9px;
+        width:40%;
+        height:13vw;
+    }
+}
