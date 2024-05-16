@@ -337,3 +337,184 @@ img:hover {
         margin-top:5vw;
     }
 }
+@media screen and (max-device-width:1060px){
+    *{
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    
+    nav a{
+        font-family: "Kanit", sans-serif;
+        text-decoration: none;
+        font-size: 35px;
+        margin-right:25px;
+        padding-top: 25px;;
+        color:white;
+        display: flex;
+    }
+    nav .contact{
+        color:black;
+        border-style: hidden;
+        background-color: white;
+        border-radius: 15px;
+        margin-top:25px;
+        margin-bottom:5px;
+        padding-left:25px;
+        padding-right:25px;
+        padding-top:0;
+        padding-bottom: 55px;
+    }
+    .contact:hover{
+        background-color: black;
+        color:white;
+    }
+    nav img{
+        padding-top: 15px;
+        width:80px;
+        height:75px;
+        margin-left:10vw;
+        margin-right: 10vw;;
+    }
+    nav{
+        background-color: black;
+        display:flex;
+        padding-bottom:15px;
+        height:95px;
+        padding-right:290px;
+        position:sticky;
+        top:0;
+        z-index:10;
+    }
+    .displayNone{
+        display: none !important; 
+    }
+    footer{
+        background-color: rgba(244, 244, 244, 1);
+        display:flex;
+        padding-top:40px;
+        padding-bottom:15px;
+        position: relative;
+        margin-top: 5vw;
+    }
+    footer a{
+        display: none;
+    }
+
+    footer p{
+        font-size: 25px;
+        margin-left:15vw;
+        margin-right:490px;
+    }
+    h1{
+            font-family: "Poppins", sans-serif;
+            font-weight: 800;
+            font-style: normal;
+            font-size: 50px;
+    }
+
+    .para{
+        width: 43%;
+        margin-top: 20px;
+        font-size: 25px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 10;
+        font-style: normal;
+        margin-bottom: 1vw;
+    }
+    .graph{
+        width: 43%;
+        margin-top: 20px;
+        font-size: 25px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 10;
+        font-style: normal;
+        margin-bottom: 5vw;;
+    }
+    .intro{
+        margin-left: 20vw;
+        margin-top:5vw;
+    }
+    .contact{
+        margin-bottom: 2vw;;
+        background-color: rgba(244, 244, 244, 1);
+        border-color:lightgrey;
+        border-style: solid;
+        border-width: 0.1px;
+        padding-top: 2vw;
+        padding-bottom: 4vw;
+        color: black;
+        padding-left: 20vw;;
+    }
+    .contact:hover{
+        background-color: rgba(244, 244, 244, 1);
+        color:black;
+    }
+    .contact h2{
+        font-family: "Poppins", sans-serif;
+        font-weight: 10;
+        font-style: normal;
+        font-size:45px;
+        margin-bottom:1vw;
+    }
+    label {
+        font-family: "Poppins", sans-serif;
+        font-weight: 10;
+        font-style: normal;
+        font-size: 25px;
+        margin-bottom: 1vw;
+    }
+    input{
+        font-family: "Poppins", sans-serif;
+        font-weight: 10;
+        font-style: normal;
+        font-size: 20px;
+        width:15%;
+        margin-bottom: 1vw;
+    }
+    textarea{
+        font-family: "Poppins", sans-serif;
+        font-weight: 10;
+        font-style: normal;
+        font-size: 11px;
+        width:228%;
+        height:9vw;
+    }
+    .name{
+        display: flex;;
+    }
+    .email{
+        display: flex;
+    }
+    .message{
+        display:flex;
+    }
+    .mee{
+        position:absolute;
+        top:27cm;
+        left:41.5%;
+    }
+    button{
+        margin-top: 1vw;
+        border-style:solid;
+        border-radius:5px;
+        padding:15px;
+        color:white;
+        background-color: black;
+        margin-left: 30.3vw;;
+    }
+    .h-captcha{
+        margin-left:21vw;
+        margin-top:1vw;
+    }
+    .intro img{
+        display: none;
+    }
+    img {
+        transition: width 2s;
+    }
+      
+    img:hover {
+        width: 600px;
+    }
+}
