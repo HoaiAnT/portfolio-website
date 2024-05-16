@@ -277,4 +277,128 @@ hr{
         width:40%;
         height:13vw;
     }
+    footer{
+        margin-top:9cm;;
+        height:50px;
+    }
+    footer p{
+        padding-top:15px;
+        margin-top:-35px;
+        font-size: 15px;;
+        width:100%;
+        margin-left:70px;
+    }
+    footer a{
+        display: none;
+    }
+    h1{
+        width:150%;
+        font-size: 50px;;
+    }
+    h2{
+        width: 90%;
+        font-size: 30px;
+        color: black;
+    }
+    p{
+        width:80%;
+        font-size: 18px;;
+    }
+    .first p{
+        width:100%;
+    }
+    .first{
+        width:70%;
+    }
+    .intro img{
+        border:none;
+        background-color: white;
+    }
+    .first img{
+         margin-left:-5.2cm;
+         margin-top:13cm;
+         width:70%;
+         height: 5.5cm;;
+    }
+    hr{
+        margin-top:2cm;
+        width:100%;
+    }
+    .second{
+        width:70%;
+        margin-top: 6cm;;
+    }
+    .second p{
+        width:205%;
+        margin-left:-4cm;
+    }
+    .second img{
+        margin-left:-0.2cm;
+        margin-top:15.5cm;
+        width:70%;
+        height: 5.5cm;;
+    }
+    .second h2{
+        width:100%;
+        margin-left: -4cm;;
+    }
+    .second section{
+        margin-top: 6cm;;
+    }
+    .thirds{
+        width:100%;
+    }
+    .thirds section{
+        width:50%;
+        margin-top: 5.5cm;
+    }
+    .thirds p{
+        width:205%;
+    }
+    .thirds img{
+        background-color: rgba(244, 244, 244, 1);
+        width:70%;
+        margin-top:29cm;
+        height:5.5cm;
+        margin-left: -5.5cm;;
+    }
+    .fourth{
+        width:100%;
+        height:180vw;;
+    }
+    .fourth img{
+        background-color: white;
+        width:70%;
+        margin-top:0.5cm;
+        height:5.5cm;
+        margin-left: 1.8cm;;
+    }
+    .fourth section{
+        width:85%;
+        margin-left: -4.2cm;;
+        margin-top: 48cm;
+    }
+    .fifth{
+        margin-top: -9cm;;
+    }
+    .fifth img{
+        background-color: rgba(244, 244, 244, 1);
+        width:70%;
+        margin-top:53cm;
+        height:5.5cm;
+        margin-left: -5cm;;
+    }
+    .fifth section{
+        width: 100%;
+        margin-top:5.5cm;
+    }
+    .sixth img{
+        width:70%;
+        height:5.5cm;
+    }
+    .sixth section{
+        width:100%;
+        margin-left: -1cm;;
+        margin-top: 71cm;
+    }
 }
