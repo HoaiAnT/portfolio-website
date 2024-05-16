@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     { transform: `translateX(-${screen.width}px)` },
                     { transform: `translateX(0px)` }],
                     {
-                        duration: 600
+                        duration: 480
                     })
         
                 inAside = true;
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     { transform: `translateX(0)` },
                     { transform: `translateX(-${screen.width}px)` }],
                     {
-                        duration: 600
+                        duration: 480
                     })
                     setTimeout(() => {
                         document.querySelector("aside").classList.toggle("displayNone");
